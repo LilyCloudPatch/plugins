@@ -2,7 +2,7 @@
   "schema_version": 2,
   "channel": "main",
   "game_id": "th14",
-  "issued_at": "2026-10-10T15:51:58Z",
+  "issued_at": "2026-10-10T17:01:19Z",
   "target_id": "th14_100b",
   "packages": [
     {
@@ -615,8 +615,8 @@
     },
     {
       "package_id": "thpatch-skipgame",
-      "title": "Alphes 风格立绘",
-      "description": "由 Dairi 绘制的 Alphes 风格角色立绘（东方辉针城），经 DTM9025 打包为 thcrap 补丁；本项目在遵守 Dairi 素材利用規約的前提下分发，署名 Dairi / DTM9025。",
+      "title": "thpatch 跳关补丁（TH14）",
+      "description": "跳过 TH14 Stage 1–7 的战斗演出。内容来自 thpatch skipgame（CC BY-SA 4.0，署名分发）。",
       "kind": "plugin",
       "delivery": "objects",
       "package_version": "0.2.0",
