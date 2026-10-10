@@ -1,8 +1,763 @@
 {
   "schema_version": 2,
-  "channel": "release",
+  "channel": "main",
   "game_id": "th14",
-  "issued_at": "2026-10-08T12:30:48Z",
+  "issued_at": "2026-10-10T15:51:58Z",
   "target_id": "th14_100b",
-  "packages": []
+  "packages": [
+    {
+      "package_id": "alphes",
+      "title": "Alphes 风格立绘",
+      "description": "由 Dairi 绘制的 Alphes 风格角色立绘（东方辉针城），经 DTM9025 打包为 thcrap 补丁；本项目在遵守 Dairi 素材利用規約的前提下分发，署名 Dairi / DTM9025。",
+      "kind": "plugin",
+      "delivery": "objects",
+      "package_version": "0.2.0",
+      "content_version": "2026.1008.1",
+      "minimum_launcher_version": "0.1.0",
+      "content_manifest_sha256": "0997f172ab74076efdd5c800d4519d150f0042573bdc5733981b8d889f0eef23",
+      "byte_length": 12644352,
+      "objects": [
+        {
+          "role": "manifest",
+          "path": "alphes/manifest.json",
+          "sha256": "0997f172ab74076efdd5c800d4519d150f0042573bdc5733981b8d889f0eef23",
+          "byte_length": 31410
+        },
+        {
+          "role": "proof",
+          "path": "alphes/manifest.sig",
+          "sha256": "9d09c67eeba5b99f8bcbcffc4dac634b9076f220c2a4924ae2ffc40cd9892827",
+          "byte_length": 64
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy1/face01an.png",
+          "sha256": "e4d844ec01416bbe9908ab8cab123b38512644573c2ed1a0c68c9bcab99da4d2",
+          "byte_length": 8680
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy1/face01bs.png",
+          "sha256": "1631145b89b508544ae6965103c4e0c44237e2191f13b71e377d3b4eaaa26472",
+          "byte_length": 276571
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy1/face01ct.png",
+          "sha256": "843e32512d7cc3eff1034915e3ea9c862b043602ccb2275207c39e1161fe524f",
+          "byte_length": 163997
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy1/face01dp.png",
+          "sha256": "795d32904c5fb57e6421ce473321a31c183ce0ec1197db4f3c9055c6a6c7766f",
+          "byte_length": 5411
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy1/face01no.png",
+          "sha256": "5425262c88b1f2f7517e172d5378ceb4325c15ed2dab7940486cee3d3059844b",
+          "byte_length": 4433
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy1/face01pr.png",
+          "sha256": "9de46fe6abe6d791ce22b9bf95f28ddbb546657fbe7738bcb1427eede57975c6",
+          "byte_length": 4039
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy1/face01sp.png",
+          "sha256": "dd9acaaa92152d7f111305f21578bc182c97ac122e07b197a62024f39ba5b98c",
+          "byte_length": 7821
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy1m/face0ct.png",
+          "sha256": "aa1bc41028f2f7e5647801b27ad9bbf779c16e75a763e16d1c8c5976c794cb71",
+          "byte_length": 73733
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy2/face02bs.png",
+          "sha256": "11ebc634ddeebacc9260ce8e12923270928859d4753d0a633788afe5313d12d4",
+          "byte_length": 160824
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy2/face02ct.png",
+          "sha256": "9a23852d8da835e8704a4cacfd0e4cf48c45dbcc3eed554c97d91762c4a57673",
+          "byte_length": 80119
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy2/face02dp.png",
+          "sha256": "bac6e8b4465112f90d1e547b34e94ed03919db497d1c94c1b5871d5a25e7f3ba",
+          "byte_length": 7211
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy2/face02lo.png",
+          "sha256": "a2c33058cfa4b0c7791ae341393bb1da39e3d85da70a85726e33f0e494d4799f",
+          "byte_length": 190929
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy2/face02no.png",
+          "sha256": "10ffb05980563daa388e4de2257813ca040cd6fac7ac90f983c20bf0610ffd72",
+          "byte_length": 4497
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy2/face02pr.png",
+          "sha256": "346d96523735c72cd172a2075a5c8dc551a36fe618b5a8ead59d719afbc7bf70",
+          "byte_length": 3876
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy3/face03bs.png",
+          "sha256": "196977ddc8f5c446de4289ada27e0ada4305361eb942baf7395e0dd255bd0fba",
+          "byte_length": 218108
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy3/face03ct.png",
+          "sha256": "69caeda06ab203682be246f0756c8046d8b0089f2298a17e09135e18cb8639db",
+          "byte_length": 102766
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy3/face03dp.png",
+          "sha256": "42f6b104682d4c8f6aa2a08248f91639e1a7e09f20202f89b641061b15b63a43",
+          "byte_length": 3658
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy3/face03lo.png",
+          "sha256": "09aa3a9a8b292a869c7ca02570502b2b8450cc29bbb8d488f6cfde3af59bd66b",
+          "byte_length": 276951
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy3/face03no.png",
+          "sha256": "c52ad00ae5d90f2be0d826c183fe15c6e986843661491f5b99ef2d638ed74024",
+          "byte_length": 4409
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy3/face03pr.png",
+          "sha256": "eace9e912565e904bee87a2dd0badf1c037f617334b9d91f337fbd62b96ed056",
+          "byte_length": 3539
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy3/face03sp.png",
+          "sha256": "1d1597999633f70620e7d07ad6112367252f144ebdc70a5ee90e36d0439f4cd2",
+          "byte_length": 5566
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy3/face03sw.png",
+          "sha256": "e105b3e39cb356288bb611cb4d6ca252df28f22b858b09fada41e051bf263f87",
+          "byte_length": 2501
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4/face04bs.png",
+          "sha256": "85b869a26486114db0ddd51e07f51cc4287687d9c68b7bd8345a5ab9cdfce421",
+          "byte_length": 304419
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4/face04ct.png",
+          "sha256": "ca7352806a1a98eec75e94ebf018c438285f59b09e0a004725437db434216daf",
+          "byte_length": 107853
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4/face04dp.png",
+          "sha256": "1393abcc0707a85dd165af4c675a9acd82dfc554400be378b624f164ba741131",
+          "byte_length": 10824
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4/face04hp.png",
+          "sha256": "0a26d984052a107205b2720c6026009d6db8bc5c821e8ab87e6525fce4eed113",
+          "byte_length": 9569
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4/face04lo.png",
+          "sha256": "921e1e64c0b33f7bb37f0b45cb55fddee5322a3f2ac4b45e26600445618c80de",
+          "byte_length": 299195
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4/face04no.png",
+          "sha256": "395eca22e688334fa10ffc877cd3ec3de326f7f85600ac6b2820f9c4383905b5",
+          "byte_length": 4786
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4/face04pr.png",
+          "sha256": "c1ce7a169d9c508dc4f89468e1897867abcdf9064e27141e4b2aeaa1e1296fb7",
+          "byte_length": 6215
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4b/face04bs.png",
+          "sha256": "bdd55ed5bee3606414879b3d6fd04222df169d149b8df677e44fa67b1cabd4dc",
+          "byte_length": 200018
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4b/face04ct.png",
+          "sha256": "84db11b62dd1c332dbcb9d7e0e6cb2f3541272e89140a7ced4005aa2b86a9b08",
+          "byte_length": 103051
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4b/face04dp.png",
+          "sha256": "f7fddfc1b4599d5addfa6686db7595dd04e1c65a53b8d2259d7e235b45f883a4",
+          "byte_length": 4216
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4b/face04lo.png",
+          "sha256": "f73b02a091141164ffece953468c4a333233f502b713e879b227d90fd83591c7",
+          "byte_length": 217848
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4b/face04n2.png",
+          "sha256": "79808db12364d81275470db3c29dddd7cda4b9b5148dbc26c45b2417cc8ca2a4",
+          "byte_length": 6605
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4b/face04no.png",
+          "sha256": "31d7961ed049019e1cfcb9513651049bc562bbb8085bac3b1e34283844a05bac",
+          "byte_length": 5134
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy4b/face04pr.png",
+          "sha256": "3f3012f25d88879ccb8ea924e11a84789e33e3f9fa01a5827f5b56268fc8075d",
+          "byte_length": 5967
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy5/face05bs.png",
+          "sha256": "561f454167690443f7332dc69688f23206642d3a21e3fe15edc31a211809cabc",
+          "byte_length": 185901
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy5/face05ct.png",
+          "sha256": "81677d57e99caeb8a4a8cec54deeb32104ec92bfbf148ddbc408a681b38ee0c2",
+          "byte_length": 95249
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy5/face05dp.png",
+          "sha256": "bbeb80ef74826450742fb2cece35b3270efbcca05011d9fc6bd5133ca9007da7",
+          "byte_length": 3873
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy5/face05lo.png",
+          "sha256": "ce0f87e8cc7facdab20edb89257532c75368097c89299dc304e4638bc5d269c7",
+          "byte_length": 211401
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy5/face05n2.png",
+          "sha256": "345b350d1497e796726f55fcf062c8af59f270bf202d1e81c4b23b0c8087a330",
+          "byte_length": 9253
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy5/face05no.png",
+          "sha256": "46f509760d040b4ecf6359af71a76dff4c122778fe953fe4b92dbdfa25a0a2ad",
+          "byte_length": 5301
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy5/face05pr.png",
+          "sha256": "8282e29357da818d642d7d839676c050bc6b9b816c1689ff105f4f1481bb932a",
+          "byte_length": 5313
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy5/face05sp.png",
+          "sha256": "e8384dc8d59200d9cc6744f77139090366c47926904108d7d7c706cd112da6bc",
+          "byte_length": 5616
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy6/face06bs.png",
+          "sha256": "8b86364643a91eb5e4d742260420a18ba98782acd6a3d5c5686005c0393ba340",
+          "byte_length": 262513
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy6/face06ct.png",
+          "sha256": "97a8a1d400f9256286113d1048735feb829ff0f31ac19dc7939d5a7f8aeb2b48",
+          "byte_length": 225027
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy6/face06dp.png",
+          "sha256": "6c08ebf40d96f8c68b055a36c71c34138777a59c6fc1d7c1e9a3aa3ecc899100",
+          "byte_length": 4372
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy6/face06hp.png",
+          "sha256": "e7cf95a6f536a14aa586365669d8547dee3e858487191278772625a79fc3a573",
+          "byte_length": 1890
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy6/face06n2.png",
+          "sha256": "eee8bd5fff434f413e0c27e4d4eea0b72ccc140ccbf8e1fb917ad123edb85264",
+          "byte_length": 3706
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy6/face06no.png",
+          "sha256": "1937a64b73cbf183fe3ce32f193eea91350c04f87951a152a165bc56166885f9",
+          "byte_length": 5120
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy6/face06pr.png",
+          "sha256": "7ae262ca106a77c53fa7b756e0395b77b767995f5a05c3135a82062511be8c22",
+          "byte_length": 3684
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7/face07bs.png",
+          "sha256": "cb374afbac7d614733e8b48b28886cfb3e4919ffc96dc6b4dd61657a214a34b8",
+          "byte_length": 315070
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7/face07ct.png",
+          "sha256": "3a9f4800df673d732deaacd298ab6559cc57f47f07dd359c104ed6975a3f3e9a",
+          "byte_length": 148590
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7/face07dp.png",
+          "sha256": "d74ce4ba5b2bc853dd2a8e055ad5336c24d1be9efa4da0a502076ef631b9c879",
+          "byte_length": 9254
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7/face07lo.png",
+          "sha256": "b127e71029dc72075a16e5ff0ae66207cc8fea5dec4070c295c43a4e95383f37",
+          "byte_length": 360407
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7/face07n2.png",
+          "sha256": "29ccffcef81642691f4619eed98428f5f14ca0d9e284626c9ea2c03785be68e1",
+          "byte_length": 5718
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7/face07no.png",
+          "sha256": "b77c4e299d6f41bb8a83c2790ad2cb775a58403d69b9096670a83a8df1f543b3",
+          "byte_length": 3674
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7/face07pr.png",
+          "sha256": "1374c6076ea35ebb678c53552ecbf4ba6a401ef06eabfedc72cf5b975e81a3de",
+          "byte_length": 7376
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7/face07sp.png",
+          "sha256": "42115cfd584c57c9dcbaca759bf94538b810fa9f64c333f53ada5e5d95f1e951",
+          "byte_length": 5436
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7m/face07bs.png",
+          "sha256": "3b1490b1a3146e963cd86aeced00e7d62b3f237302b3ddd229d428f52878771f",
+          "byte_length": 304735
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7m/face07mct.png",
+          "sha256": "519be0d0afda7e8c48e04b3ee9e3e8f62b11a6bc9cf807686601c82be30c8c7b",
+          "byte_length": 234760
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/enemy7m/face07no.png",
+          "sha256": "2fcf97d90278e81312ff610ae8ecf9f7adb2bcded1cf0dfc02ee02ddd05d41e7",
+          "byte_length": 5094
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/face_pl00an.png",
+          "sha256": "7b0d958eff6ae99e28b291d585a733e1869627fd92e678403f941489592819de",
+          "byte_length": 9257
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/face_pl00bs.png",
+          "sha256": "d5a8920ef7028eb473984b769c5332990bdfc3abebe67537862873348edb2c6f",
+          "byte_length": 231660
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/face_pl00dp.png",
+          "sha256": "3e26407cc66c85eed12bee49e9692100f4a0cf66bf4138c3033d55f7ce2b9cf8",
+          "byte_length": 4391
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/face_pl00hp.png",
+          "sha256": "a652e729e83343427b64b9a02a756ad42277a4f583ac09ccb45c84eab9b607b7",
+          "byte_length": 10170
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/face_pl00n2.png",
+          "sha256": "6fb2fa9c7aeadca653179e9b93f8ed824be815ae5ead1201524462ce877b8c57",
+          "byte_length": 9669
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/face_pl00no.png",
+          "sha256": "8f82d1b18337f730640048eede6daf00456f641ef3ce58488c0597bffe8a9cac",
+          "byte_length": 5602
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/face_pl00pr.png",
+          "sha256": "c91f7a0a96d410edcad2cd709e5fc672d386e36551ce193bf1b359485c8613a7",
+          "byte_length": 7464
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/face_pl00sp.png",
+          "sha256": "61f6a8cdab55d6c25a2aa77d39b5a27666524db43150682a02ebe15b9a04a55d",
+          "byte_length": 10002
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/face_pl00sw.png",
+          "sha256": "15c69a0a3c8efe22f1a0daa811651b3a7679ed766f88e0ff185ce914539e3af9",
+          "byte_length": 2619
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/title_pl00.png",
+          "sha256": "f6917328859ae21da1963d29581b7fdfd29355d00378db0dc4b3cf03d378bcbc",
+          "byte_length": 302816
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl00/title_pl00b.png",
+          "sha256": "a0f1ba10eea9d761a75f37e6ce934d3c738819abdfa86e24313b0b4b00688577",
+          "byte_length": 250119
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/face_pl01an.png",
+          "sha256": "3a5b820dccb9a3e79f2e6d0b7c29bd3d7b7f20a2737575d997316756266fa716",
+          "byte_length": 9025
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/face_pl01bs.png",
+          "sha256": "9bc3027c5c3f2809e17387e683884af98b2a8a9fcb9ed12900f819812de3c32d",
+          "byte_length": 288034
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/face_pl01dp.png",
+          "sha256": "e989e368352f0161625a83e95645d0b96f6fddf857eb98cd68a2e225a16d6f7c",
+          "byte_length": 4172
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/face_pl01hp.png",
+          "sha256": "78c638bbc737af250f6c4839acd9039a7a6ca23de604cdb03d3901fd9b5ded31",
+          "byte_length": 10063
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/face_pl01n2.png",
+          "sha256": "6714431afcce5db49746d7c454dc1ed75ecd49c0ed6ffe44ebab8cbd0ca89610",
+          "byte_length": 10468
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/face_pl01no.png",
+          "sha256": "753e423faf99693ce05f51b1e479f0b07952883dd530fa94ea9c71ff7995f323",
+          "byte_length": 5358
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/face_pl01pr.png",
+          "sha256": "d1644647b81d4cb98c6fc8659fd1e668d4d64f58ecaee9d34ae77bc7c99e5bd6",
+          "byte_length": 8288
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/face_pl01sp.png",
+          "sha256": "3ba9cc0542c2c7e68f18df200897abf7b3401b72ddcac0d4e62db9a93f6eebc4",
+          "byte_length": 9408
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/face_pl01sw.png",
+          "sha256": "2070b0200a3e37fc8f1fdc69c03b62edba14c967c9cef5247c2b282c01429d9b",
+          "byte_length": 3281
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/title_pl01.png",
+          "sha256": "5b33dea5fcac04c25113ce6810499bd547a20ed51f9d93e0b0a1eb278f9560bd",
+          "byte_length": 305423
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl01/title_pl01b.png",
+          "sha256": "8de4db79f4f00add0962c93364bb3d1736c765a1ef8dac928e88b80027920f57",
+          "byte_length": 289674
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/face_pl02an.png",
+          "sha256": "48c4e10826aa1cc17af8e5912e23716456793bac955cf795effca3887b2198a0",
+          "byte_length": 9002
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/face_pl02bs.png",
+          "sha256": "3a2345ab5f9459e21876fa7621b037771258e3ccffdc598a52332e23e0d9df86",
+          "byte_length": 184098
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/face_pl02dp.png",
+          "sha256": "32a3a2882fa1afc1b0850390a191fd949a0b6030864b5d03ec8f966a1afba333",
+          "byte_length": 4166
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/face_pl02hp.png",
+          "sha256": "6b5fc9e55c24c50c52979d409042aaa6f54d0261038ac4d6ed0acb7603bb386c",
+          "byte_length": 8792
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/face_pl02n2.png",
+          "sha256": "261eb377e6ed6688be15a2cfafbfc382405c0b5f4864c9c2af95b4f834c38ba8",
+          "byte_length": 9891
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/face_pl02no.png",
+          "sha256": "147e2c0446dab5224bee6e892cc5c3d172b449d713684f0ae09d861a62888069",
+          "byte_length": 4618
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/face_pl02pr.png",
+          "sha256": "d1a4ebc8c228a7f9541ded9ff32e19c0c472c2f32168aa3925a73c97dd42bfb6",
+          "byte_length": 6763
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/face_pl02sp.png",
+          "sha256": "3c15ca958ad15a9705a8323182b3ffc09d48416a0baa28dc7a53cd8311f5f8ee",
+          "byte_length": 8511
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/face_pl02sw.png",
+          "sha256": "3a8eccd9b6e00d87959ad81811c9d3608df7f0f9c62c95962ea4105eaaca756f",
+          "byte_length": 5611
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/title_pl02.png",
+          "sha256": "6623aa22c1ee796487819466ac857c1711a42b692effc23378071da495a95dd2",
+          "byte_length": 173261
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/face/pl02/title_pl02b.png",
+          "sha256": "6c9f447f30342c396d2fb955ef2e5ccb3d8e8cb342d00934e070dd633371904e",
+          "byte_length": 155010
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/title/title_bk00.png",
+          "sha256": "771cd05c53b2e0aec6f6f2d5b3a599b1f52fadc4dcbf58dc8d1dc5ff8ae9478a",
+          "byte_length": 2263893
+        },
+        {
+          "role": "blob",
+          "path": "alphes/files/data/title/title_bk01.png",
+          "sha256": "0cc4350bf34f8a8c6401f0c8c18327fca1655f47b281c62a13f3551da5ea466a",
+          "byte_length": 2405503
+        }
+      ]
+    },
+    {
+      "package_id": "thpatch-skipgame",
+      "title": "Alphes 风格立绘",
+      "description": "由 Dairi 绘制的 Alphes 风格角色立绘（东方辉针城），经 DTM9025 打包为 thcrap 补丁；本项目在遵守 Dairi 素材利用規約的前提下分发，署名 Dairi / DTM9025。",
+      "kind": "plugin",
+      "delivery": "objects",
+      "package_version": "0.2.0",
+      "content_version": "2026.1008.1",
+      "minimum_launcher_version": "0.1.0",
+      "content_manifest_sha256": "9cffb7d2962728180511b3ed7582cd53c3150630dca374f2fd48c328f8a52c2c",
+      "byte_length": 270336,
+      "objects": [
+        {
+          "role": "manifest",
+          "path": "thpatch-skipgame/manifest.json",
+          "sha256": "9cffb7d2962728180511b3ed7582cd53c3150630dca374f2fd48c328f8a52c2c",
+          "byte_length": 3708
+        },
+        {
+          "role": "proof",
+          "path": "thpatch-skipgame/manifest.sig",
+          "sha256": "22013bc66295e0b7488e03b6f91cf9b4a18116719374648a2086ecf3e468444f",
+          "byte_length": 64
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st01.ecl",
+          "sha256": "fab34bbee110535098c3a905a592fd00b89b99f4e5b8e905da619b0a6da27204",
+          "byte_length": 1592
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st01bs.ecl",
+          "sha256": "ccf9cd5df7481f9ee1d13b72192a12c6adbf2be96179799903ef87d0e98f2342",
+          "byte_length": 5920
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st01mbs.ecl",
+          "sha256": "b55b453007a73365050a7fdb9bb59a25b09a84fac1c95173be24ff582e678cd4",
+          "byte_length": 4096
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st02.ecl",
+          "sha256": "2cf981b7ffe9e0d70adec7ed6e6aee541947982c4e319fddf5ee0aa1fb16ca37",
+          "byte_length": 1652
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st02bs.ecl",
+          "sha256": "a75c042ef890bd28eb50f4a218ae85389425c6f87a6c5d0a165c6575f2cd57d0",
+          "byte_length": 9784
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st02mbs.ecl",
+          "sha256": "81a3fbebe0247c1ad4c2292f2d012a190c06bb3e949d42d5af911d61957a01f1",
+          "byte_length": 4708
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st03.ecl",
+          "sha256": "23243f7f8e073dce4201a5445d58db2f059f8da82c66a406e5e6282a6eaa6a22",
+          "byte_length": 1656
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st03bs.ecl",
+          "sha256": "24ec4d9d03e6cad105c2263b2ce24fbfc21b6685c32c656f15deef716d5f2948",
+          "byte_length": 16864
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st03mbs.ecl",
+          "sha256": "bb7fc37c0b834767b2bee044bb0827bf9f6894ea80ef23eb0891c7787bdf4ea2",
+          "byte_length": 5864
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st04.ecl",
+          "sha256": "818a9069df305a8d5e9c3cf92a700c34361d5ec2f0729732fa51d6351d3abfa3",
+          "byte_length": 2176
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st04bs.ecl",
+          "sha256": "6a113a87271722a69afed0c683f384086ee9d64bf2c9dba8272cc7dc5e766497",
+          "byte_length": 9548
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st04bs2.ecl",
+          "sha256": "2a58ed3c2fb3ea5fbf249263d9e0f4c98b08652039c51718552c0d241857d42e",
+          "byte_length": 7984
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st05.ecl",
+          "sha256": "59363fe3be51568ae063165f698fec8ec994235974be9f463bccb58b43e9f8ea",
+          "byte_length": 1652
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st05bs.ecl",
+          "sha256": "78d7ea4b508b873e03a3415307efe8a06e0a99644e7742d57f691dd0390dae3b",
+          "byte_length": 11180
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st05mbs.ecl",
+          "sha256": "6af8562f01a7cef9afc4b5807099998961f3ca33cfec2fc9752f0f6629d90d04",
+          "byte_length": 3808
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st06.ecl",
+          "sha256": "543244ff10ddef32ba46906265f24f0b95397a06299b5c9ce162f7c72caa9a77",
+          "byte_length": 1284
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st06bs.ecl",
+          "sha256": "b5a5787dcb9583215f92d6904ce78ef0738122c7a96c749ec0c4ed13b8a651bb",
+          "byte_length": 23660
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st07.ecl",
+          "sha256": "cca1825a0204f724339c557bc7ba62275fdbf109f8071394b427327c9f0672ab",
+          "byte_length": 1744
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st07bs.ecl",
+          "sha256": "8672819faa1b5e86b632734e81701d4c56cade1bbcaa7f5ec6e0f1e3dbb0e0f9",
+          "byte_length": 41528
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st07mbs.ecl",
+          "sha256": "8375adfceb1c4c388d3ca51507ccf82ddf6182fde23c261069138a3ab707cc75",
+          "byte_length": 13720
+        }
+      ]
+    }
+  ]
 }
