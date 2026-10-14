@@ -1,0 +1,77 @@
+{
+  "schema_version": 2,
+  "channel": "release",
+  "game_id": "th15",
+  "issued_at": "2026-10-14T09:21:30Z",
+  "target_id": "th15_100b",
+  "packages": [
+    {
+      "package_id": "thpatch-skipgame",
+      "title": "跳过游戏流程（TH15）",
+      "description": "Touhou Patch Center skipgame；CC BY-SA 4.0。快速校对对话和结局；中文符卡名由 LilyPatch 保留。https://srv.thpatch.net/skipgame/",
+      "kind": "plugin",
+      "delivery": "objects",
+      "package_version": "0.1.0",
+      "content_version": "0.1.0",
+      "minimum_launcher_version": "0.1.0",
+      "content_manifest_sha256": "eb62fce8ffd0ac47890c7f09f863a8b5e7d96cdd21c11512dbcb46dfba80fea5",
+      "byte_length": 118784,
+      "objects": [
+        {
+          "role": "manifest",
+          "path": "thpatch-skipgame/manifest.json",
+          "sha256": "eb62fce8ffd0ac47890c7f09f863a8b5e7d96cdd21c11512dbcb46dfba80fea5",
+          "byte_length": 1492
+        },
+        {
+          "role": "proof",
+          "path": "thpatch-skipgame/manifest.sig",
+          "sha256": "0dd23258132666b7a9bf18a36201731bc990da7257517be5a763afbd88643c82",
+          "byte_length": 64
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st01.ecl",
+          "sha256": "a70062dc6b79a557c63aae5794d00511e75a43c21ccd349e7dfa65dd22489367",
+          "byte_length": 1632
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st02.ecl",
+          "sha256": "3b2382aa5556ba96efdbd04032ea0212f48ed8edafc5b9daef23c7d8e8fc0784",
+          "byte_length": 1424
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st03.ecl",
+          "sha256": "4416ba3f8b73a504bd9e1193684bd300df7ab35d7257cb5770ea035bdf95e18b",
+          "byte_length": 2108
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st04.ecl",
+          "sha256": "3b0de8c60715342019bceb503e8e95663f0c22173f428cc4fb682e3568c7bfca",
+          "byte_length": 1700
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st05.ecl",
+          "sha256": "143eb29e807e0c48ea8fd45e29bf178b548048f75fa6a4aefd02f007479b1284",
+          "byte_length": 3272
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st06.ecl",
+          "sha256": "58e61080d23e180dfdb463e2eae9d26bedde37e03b581f7ef728563258709f0a",
+          "byte_length": 2552
+        },
+        {
+          "role": "blob",
+          "path": "thpatch-skipgame/files/data/st07.ecl",
+          "sha256": "d1f0a39b8e730672ebc729da3287d27d89ce864cb63c5a9a3ea30e9da6595ce3",
+          "byte_length": 3984
+        }
+      ]
+    }
+  ]
+}
