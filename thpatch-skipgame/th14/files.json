@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "package_id": "thpatch-skipgame",
+  "game_id": "th14",
+  "target_id": "th14_100b",
+  "objects": [
+    {
+      "role": "manifest",
+      "path": "thpatch-skipgame/th14/manifest.json",
+      "sha256": "9cffb7d2962728180511b3ed7582cd53c3150630dca374f2fd48c328f8a52c2c",
+      "byte_length": 3708
+    },
+    {
+      "role": "proof",
+      "path": "thpatch-skipgame/th14/manifest.sig",
+      "sha256": "22013bc66295e0b7488e03b6f91cf9b4a18116719374648a2086ecf3e468444f",
+      "byte_length": 64
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st01.ecl",
+      "sha256": "fab34bbee110535098c3a905a592fd00b89b99f4e5b8e905da619b0a6da27204",
+      "byte_length": 1592
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st01bs.ecl",
+      "sha256": "ccf9cd5df7481f9ee1d13b72192a12c6adbf2be96179799903ef87d0e98f2342",
+      "byte_length": 5920
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st01mbs.ecl",
+      "sha256": "b55b453007a73365050a7fdb9bb59a25b09a84fac1c95173be24ff582e678cd4",
+      "byte_length": 4096
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st02.ecl",
+      "sha256": "2cf981b7ffe9e0d70adec7ed6e6aee541947982c4e319fddf5ee0aa1fb16ca37",
+      "byte_length": 1652
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st02bs.ecl",
+      "sha256": "a75c042ef890bd28eb50f4a218ae85389425c6f87a6c5d0a165c6575f2cd57d0",
+      "byte_length": 9784
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st02mbs.ecl",
+      "sha256": "81a3fbebe0247c1ad4c2292f2d012a190c06bb3e949d42d5af911d61957a01f1",
+      "byte_length": 4708
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st03.ecl",
+      "sha256": "23243f7f8e073dce4201a5445d58db2f059f8da82c66a406e5e6282a6eaa6a22",
+      "byte_length": 1656
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st03bs.ecl",
+      "sha256": "24ec4d9d03e6cad105c2263b2ce24fbfc21b6685c32c656f15deef716d5f2948",
+      "byte_length": 16864
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st03mbs.ecl",
+      "sha256": "bb7fc37c0b834767b2bee044bb0827bf9f6894ea80ef23eb0891c7787bdf4ea2",
+      "byte_length": 5864
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st04.ecl",
+      "sha256": "818a9069df305a8d5e9c3cf92a700c34361d5ec2f0729732fa51d6351d3abfa3",
+      "byte_length": 2176
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st04bs.ecl",
+      "sha256": "6a113a87271722a69afed0c683f384086ee9d64bf2c9dba8272cc7dc5e766497",
+      "byte_length": 9548
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st04bs2.ecl",
+      "sha256": "2a58ed3c2fb3ea5fbf249263d9e0f4c98b08652039c51718552c0d241857d42e",
+      "byte_length": 7984
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st05.ecl",
+      "sha256": "59363fe3be51568ae063165f698fec8ec994235974be9f463bccb58b43e9f8ea",
+      "byte_length": 1652
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st05bs.ecl",
+      "sha256": "78d7ea4b508b873e03a3415307efe8a06e0a99644e7742d57f691dd0390dae3b",
+      "byte_length": 11180
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st05mbs.ecl",
+      "sha256": "6af8562f01a7cef9afc4b5807099998961f3ca33cfec2fc9752f0f6629d90d04",
+      "byte_length": 3808
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st06.ecl",
+      "sha256": "543244ff10ddef32ba46906265f24f0b95397a06299b5c9ce162f7c72caa9a77",
+      "byte_length": 1284
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st06bs.ecl",
+      "sha256": "b5a5787dcb9583215f92d6904ce78ef0738122c7a96c749ec0c4ed13b8a651bb",
+      "byte_length": 23660
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st07.ecl",
+      "sha256": "cca1825a0204f724339c557bc7ba62275fdbf109f8071394b427327c9f0672ab",
+      "byte_length": 1744
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st07bs.ecl",
+      "sha256": "8672819faa1b5e86b632734e81701d4c56cade1bbcaa7f5ec6e0f1e3dbb0e0f9",
+      "byte_length": 41528
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th14/files/data/st07mbs.ecl",
+      "sha256": "8375adfceb1c4c388d3ca51507ccf82ddf6182fde23c261069138a3ab707cc75",
+      "byte_length": 13720
+    }
+  ]
+}

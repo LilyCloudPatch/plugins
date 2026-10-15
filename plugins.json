@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "channel": "release",
+  "issued_at": "2026-10-14T18:48:24Z",
+  "plugins": [
+    {
+      "package_id": "thpatch-skipgame",
+      "title": "跳过游戏流程",
+      "description": "Touhou Patch Center skipgame；CC BY-SA 4.0。快速校对对话和结局；中文符卡名由 LilyPatch 保留。",
+      "games": [
+        {
+          "package_version": "0.2.0",
+          "content_version": "2026.1008.1",
+          "minimum_launcher_version": "0.1.0",
+          "content_manifest_sha256": "9cffb7d2962728180511b3ed7582cd53c3150630dca374f2fd48c328f8a52c2c",
+          "byte_length": 270336,
+          "game_id": "th14",
+          "target_id": "th14_100b",
+          "files": {
+            "path": "thpatch-skipgame/th14/files.json",
+            "sha256": "2f4a364522a74d09bce2fc64232785f1943d1f67ca69a501f8bbf9749be1bcfd",
+            "byte_length": 4645
+          }
+        },
+        {
+          "game_id": "th15",
+          "target_id": "th15_100b",
+          "package_version": "0.1.0",
+          "content_version": "0.1.0",
+          "minimum_launcher_version": "0.1.0",
+          "content_manifest_sha256": "eb62fce8ffd0ac47890c7f09f863a8b5e7d96cdd21c11512dbcb46dfba80fea5",
+          "byte_length": 118784,
+          "files": {
+            "path": "thpatch-skipgame/th15/files.json",
+            "sha256": "fb12148d27f0521c89ab90ce9bf6c0a1a9db3b0faeedcce8747756095c9e97cf",
+            "byte_length": 1956
+          }
+        }
+      ]
+    },
+    {
+      "package_id": "alphes",
+      "title": "Alphes 风格立绘",
+      "description": "Dairi 创作，DTM9025 整理。替换角色立绘、符卡 cut-in 与选人图；遵守已审核的素材利用規約。",
+      "games": [
+        {
+          "package_version": "0.2.0",
+          "content_version": "2026.1008.1",
+          "minimum_launcher_version": "0.1.0",
+          "content_manifest_sha256": "0997f172ab74076efdd5c800d4519d150f0042573bdc5733981b8d889f0eef23",
+          "byte_length": 12644352,
+          "game_id": "th14",
+          "target_id": "th14_100b",
+          "files": {
+            "path": "alphes/th14/files.json",
+            "sha256": "17ba391f10f2281fc0d0d28120d6bc6fda4e02714dd11eb52c88f6f23abb6db4",
+            "byte_length": 20978
+          }
+        },
+        {
+          "game_id": "th15",
+          "target_id": "th15_100b",
+          "package_version": "0.1.0",
+          "content_version": "2026.1014.1",
+          "minimum_launcher_version": "0.1.0",
+          "content_manifest_sha256": "d2cc3f0a0d8296c1cbbf5af12a6e1f0a9100baa6042ee04c2414a43343bc566c",
+          "byte_length": 10571776,
+          "files": {
+            "path": "alphes/th15/files.json",
+            "sha256": "8b72f6d718ac80233e2ca254e0c36d8457685d7cec144f8fa51b8f639ba90a76",
+            "byte_length": 20973
+          }
+        }
+      ]
+    }
+  ]
+}
