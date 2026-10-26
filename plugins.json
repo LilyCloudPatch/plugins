@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "release",
-  "issued_at": "2026-10-18T15:00:31Z",
+  "issued_at": "2026-10-26T13:05:46Z",
   "plugins": [
     {
       "package_id": "alphes",
@@ -83,6 +83,20 @@
             "path": "thpatch-skipgame/th08/files.json",
             "sha256": "d3eecae8da29c649c1ab3b809a83cb0b4e7b9e6c45d28a23e8d0c868d858b87d",
             "byte_length": 4312
+          }
+        },
+        {
+          "game_id": "th07",
+          "target_id": "th07_100b",
+          "package_version": "0.1.0",
+          "content_version": "0.1.0",
+          "minimum_launcher_version": "0.1.0",
+          "content_manifest_sha256": "0beeef9f44c31deeb6efdb15653f334fcd957f57982097d91a7c02624dbb5c4d",
+          "byte_length": 573440,
+          "files": {
+            "path": "thpatch-skipgame/th07/files.json",
+            "sha256": "2dccda9b290732e4a0d1435dcc9f0dc3944b6ca866c2959e3dd58162a57d04fc",
+            "byte_length": 2201
           }
         }
       ]

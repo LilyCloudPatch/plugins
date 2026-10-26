@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "package_id": "thpatch-skipgame",
+  "game_id": "th07",
+  "target_id": "th07_100b",
+  "objects": [
+    {
+      "role": "manifest",
+      "path": "thpatch-skipgame/th07/manifest.json",
+      "sha256": "0beeef9f44c31deeb6efdb15653f334fcd957f57982097d91a7c02624dbb5c4d",
+      "byte_length": 1696
+    },
+    {
+      "role": "proof",
+      "path": "thpatch-skipgame/th07/manifest.sig",
+      "sha256": "670c990c0e664c0c9f44eed83398f54c275f2f85bf111603db909491037ec89f",
+      "byte_length": 64
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th07/files/data/ecldata1.ecl",
+      "sha256": "a91fe93e6b98382f031045360ba480901c39964871c7280613a917e4f9ed77a7",
+      "byte_length": 35496
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th07/files/data/ecldata2.ecl",
+      "sha256": "565a32fbe0fc668abe49281b878a7f3f6827197e5b2b446fffb680eb25dd8239",
+      "byte_length": 56888
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th07/files/data/ecldata3.ecl",
+      "sha256": "6c84bb349b85850c25fc329bb889ff0b4490d6132817d2de6074abf54a892add",
+      "byte_length": 44052
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th07/files/data/ecldata4.ecl",
+      "sha256": "038155d3bd572b5075050cda477402710b569aacd85fa9cb5b0cd0fe8d465eab",
+      "byte_length": 109240
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th07/files/data/ecldata5.ecl",
+      "sha256": "8a614fbb90d196578ad72ac7baffb98e7275a0bb7f926c70bdd2fa711ba89247",
+      "byte_length": 44916
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th07/files/data/ecldata6.ecl",
+      "sha256": "7014e03ac798720c07d986f167dfdf57b3b3e7569365938db9c709581f0ebfd3",
+      "byte_length": 57660
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th07/files/data/ecldata7.ecl",
+      "sha256": "2785f2ace0439bdfabaaaf54eb998f550410bee6f33cc78dcecefc77f711d2f8",
+      "byte_length": 57128
+    },
+    {
+      "role": "blob",
+      "path": "thpatch-skipgame/th07/files/data/ecldata8.ecl",
+      "sha256": "eb863acbeaed80774556c2ae00e1ea714ff16cb7dce3cb03f11c493222bab19e",
+      "byte_length": 70468
+    }
+  ]
+}

@@ -41,3 +41,16 @@ time_factor 二进制修改不在包或运行时中。
 独立回归范围。当时仍为本地测试签名产物，此反馈本身不自动授权公开发布。
 2026-10-18用户另行明确授权推进TH08在线闭环，现已使用既有正式plugin锚签发，
 以LilyCloudPatch/plugins中的thpatch-skipgame/th08变体发布；验收及版本见本作ONLINE/TESTING。
+
+
+## TH07 skipgame 来源与许可
+
+TH07 1.00b / x86 的 `thpatch-skipgame` 提供8份关卡资源，覆盖普通关、Extra与Phantasm；默认关闭。
+来源为 [Touhou Patch Center / skipgame contributors](https://www.thpatch.net/wiki/Patch:Skipgame)，
+文件历史包含 NamelessLegacy 等贡献者，见[原站文件历史](https://www.thpatch.net/wiki/File:Skipgame-th07-ecldata4.ecl)。
+根据 [Touhou Patch Center 服务器许可说明](https://www.thpatch.net/wiki/Touhou_Patch_Center:Servers)，
+这些资源按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 提供。
+
+LilyPatch 保留上游资源字节，将其封装为可选内容包；不交付上游补丁程序，也不修改游戏原档案。
+再分发或修改时请保留来源、署名与修改说明，并按同一许可提供。
+签名仅用于客户端验证来源，不限制许可允许的提取、修改和再利用，也不表示上游作者背书。
