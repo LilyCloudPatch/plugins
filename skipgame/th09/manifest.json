@@ -1,0 +1,16 @@
+lilypatch-package-capability-manifest-v1
+content_version=0.1.0
+game_id=th09
+minimum_launcher_version=0.1.1
+package_id=skipgame
+package_version=0.1.0
+target_id=th09_150a
+resource_count=0
+imageguard_count=0
+capability_count=1
+capability=th09.story-round-control
+executable_name=th09.exe
+executable_sha256=10350095bcf95edb59e03bee9849a2dc8a7714b4927ad5909c569c550fce6822
+architecture=32
+dependency_count=0
+conflict_count=0

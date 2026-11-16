@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "channel": "release",
-  "issued_at": "2026-10-26T13:05:46Z",
+  "issued_at": "2026-11-16T16:50:22Z",
   "plugins": [
     {
       "package_id": "alphes",
@@ -34,6 +34,27 @@
             "path": "alphes/th15/files.json",
             "sha256": "8b72f6d718ac80233e2ca254e0c36d8457685d7cec144f8fa51b8f639ba90a76",
             "byte_length": 20973
+          }
+        }
+      ]
+    },
+    {
+      "package_id": "skipgame",
+      "title": "东方花映塚 跳关",
+      "description": "仅支持 1.50a（CD 版和 Steam ver150a）普通 Story 的左侧玩家。对话结束后快速结算当前对战。默认关闭。",
+      "games": [
+        {
+          "game_id": "th09",
+          "target_id": "th09_150a",
+          "package_version": "0.1.0",
+          "content_version": "0.1.0",
+          "minimum_launcher_version": "0.1.1",
+          "content_manifest_sha256": "5dfbd555493a466f52699301fc68009ccf85cdc98ab5f56de2535f6ab09a6696",
+          "byte_length": 94208,
+          "files": {
+            "path": "skipgame/th09/files.json",
+            "sha256": "19163d830c5e82b3ac7dbd022ea63ac9def5ff0671a559562cd4d7341d696985",
+            "byte_length": 503
           }
         }
       ]

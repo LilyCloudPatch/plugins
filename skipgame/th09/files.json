@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "package_id": "skipgame",
+  "game_id": "th09",
+  "target_id": "th09_150a",
+  "objects": [
+    {
+      "role": "manifest",
+      "path": "skipgame/th09/manifest.json",
+      "sha256": "5dfbd555493a466f52699301fc68009ccf85cdc98ab5f56de2535f6ab09a6696",
+      "byte_length": 420
+    },
+    {
+      "role": "proof",
+      "path": "skipgame/th09/manifest.sig",
+      "sha256": "a2a3d4ddb111eed050a156e8aab35d8ec9130810606036549657e4a8c1626ace",
+      "byte_length": 64
+    }
+  ]
+}
